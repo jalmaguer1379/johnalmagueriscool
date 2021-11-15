@@ -1,0 +1,87 @@
+#logo {
+            width: 5%;
+            margin-bottom: -2%;
+}
+
+.jumbo {
+            width: 95%;
+            
+}
+
+#centerjumbo {
+                margin: 0 auto;
+}
+
+#spaceleft {
+
+            margin-left: 10%;
+            padding-bottom: 3%;
+}
+
+#lucy {
+        background-image: url(images/history.jpg);
+        
+}
+
+.read {
+            background-color: wheat;
+            opacity: .90;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#foto {
+            background-image: url(images/ducks.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+}
+
+.read2 {
+            background-color: white;
+            opacity: .75;
+}
+
+#logo2 {
+            width: 3%;
+}
+
+#monkey:hover {
+                background-image: url(images/monkey.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+}
+
+.linkstyle {
+                text-decoration: none;
+                color: black;
+}
+
+.center {
+                margin-left: 25%;
+                margin-top: 5%;
+                width: 50%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .space {
+            padding-bottom: 5%;
+    }
+
+    .logo {
+            display: none;
+    }
+
+    a {
+        padding: 2%;
+    }
+}
+    
+
