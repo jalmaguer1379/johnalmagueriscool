@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <script src="jquery-3.6.0.js"></script>
+    <link href="fotorama-4.6.2/fotorama.css" rel="stylesheet">
+    <script src="fotorama-4.6.2/fotorama.js"></script>
+    <link href="home.css" rel="stylesheet">
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-5.0.2-dist/bootstrap-5.1.3-examples/bootstrap-5.1.3-examples/headers/headers.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <img src="images/logojpa.jpg" id="logo" alt="logo of my name" class="logo">
+          <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          
+            <span class="fs-4">Photo Album</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="podcast.html" class="nav-link">Podcast</a></li>
+            <li class="nav-item"><a href="photogallery.html" class="nav-link active">Album</a></li>
+          </ul>
+        </header>
+      </div>
+    
+      <div class="b-example-divider"></div>
+
+      <div class="fotorama fotorama_stage center" data-width="700" data-ratio="700/467" data-max-width="100%">
+
+         <img src="images/ducks.jpg" alt="ducks on a pond">
+         <img src="images/fly.jpg" alt="fly on a public park">
+         <img src="images/Pond.jpg" alt="pond by public park">
+         <img src="images/stairs.jpg" alt="stairs from museum">
+         <img src="images/bike.jpg" alt="cruising by lake in town">
+
+
+
+
+        </div>
+
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Join my VIP List</h1>
+                <p class="col-lg-10 fs-4">Generic sentence because I do not know what to say</p>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light" onsubmit="VerifyForm()">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-primary" type="submit" >Sign up</button>
+                  <hr class="my-4">
+                  <small class="text-muted">By clicking Sign up, you agree that I am cool</small>
+                </form>
+              </div>
+            </div>
+          </div>
+
+         <script>
+                    function VerifyForm() {
+
+                        
+
+                        alert("Thank you!!!")
+                    }
+
+         </script>
+      
+      <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <img src="images/logojpa.jpg" id="logo2" class="logo" alt="company logo jpa">
+          <span class="text-muted">&copy; 2021 John Almaguer</span>
+        </div>
+      </footer>
+      
+    
+</body>
+</html>
