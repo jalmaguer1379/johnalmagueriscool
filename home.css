@@ -86,6 +86,9 @@
        #monkey {
                    pointer-events: none;
             }
+            
+        #Hideme {
+                    display:none; }
   
 }
     
